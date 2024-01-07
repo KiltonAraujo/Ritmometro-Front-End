@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="src/imagens/icon.png" rel="icon">
+    <title>Ritmômetro</title>
+    <link href="src/rank.css" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
+  </head>
+  
+  <body class="bodycadastro">
+    <header class="headerforms">
+      <h1 class="logoforms"><a href="index.html"><img src="src/imagens/Logo.svg"></a></h1>
+    </header>
+    
+    <main class="maincadastro">
+      <section class="cadastro">
+        
+        <h1>CRIE SUA CONTA</h1>
+        <h2>Seja bem-vindo ao Ritmometro!</h2>
+        
+        <form action="index.html">
+          <label for="username">Nome de usuário</label><br>
+            <input type="text" id="username" required><br>
+          <label for="email">E-mail</label><br>
+            <input type="email" id="email" required><br>
+          <label for="senha"> Senha </label><br>
+            <input required minlength="8" type="password" id="senha" required><br>
+          <label for="senha"> Confirme sua senha </label><br>
+            <input required minlength="8" type="password" id="senha" required><br>
+          <label class="checkbox">Eu li e concordo com os <a href="#" style="color: #745DCF;">Termos de Política e Privacidade.</a>
+            <input type="checkbox" required>
+            <span class="checkmark"></span>
+          </label>
+          <div class="barra">
+            <div class="enviar">
+              <input id="criar" type="submit" value="CRIAR">
+            </div>
+          </div>
+          <p>Já tem uma conta? <a href="entrar.html"> Entre aqui.</a></p>
+        </form>
+      </section>
+      
+      <section class="sobre">
+        <figure>
+          <a href="#"><img src="src/imagens/tslink.png" alt="Sobre Ritmômetro"></a>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer_logo_sociais">
+        <a href="index.html"><h1><img src="src/imagens/Logo.svg"></h1></a>
+
+        <nav class="redes_sociais">
+          <ol>
+            <li><a href="#"><img src="src/imagens/linkedin.svg"></a></li>
+            <li><a href="#"><img src="src/imagens/instagram.svg"></a></li>
+            <li><a href="#"><img src="src/imagens/x.svg"></a></li>
+            <li><a href="#"><img src="src/imagens/facebook.svg"></a></li>
+          </ol>
+        </nav>
+      </nav>
+
+      <div class="footer_section_direitos">
+        <div>
+          <section>
+            <h2 class="titulo_listas">COMPANHIA</h2>
+            <ol>
+              <li>Sobre o Ritmômetro</li>
+              <li>Nos contate</li>
+              <li>Trabalhos e projetos</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2 class="titulo_listas">SUPORTE</h2>
+            <ol>
+              <li>Rastrear música</li>
+              <li>Comunidade Suporte</li>
+              <li>Comunidade Guia</li>
+              <li>Suporte</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2 class="titulo_listas">CONTA</h2>
+            <ol>
+              <li>Baixar Inscroblous</li>
+              <li>API do Desenvolvedor</li>
+              <li>Baixar músicas grátis</li>
+              <li>Mercado</li>
+            </ol>
+          </section>
+        </div>
+        <p>© 2023 Ritmometro, IFRN DESIGN | Privacy | Accessibility | Cookie Choices</p>
+      </div>
+    </footer>
+  </body>
+
+</html>

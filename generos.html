@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="src/imagens/icon.png" rel="icon">
+    <title>Ritmômetro</title>
+    <link href="src/rank.css" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
+    <script src="src/ritmo.js"></script>
+  </head>
+
+  <body class="body_generos" tabindex="0" onclick="javascript:fechar_deslizavel()">
+    <header>
+      <div>
+      <h1><a href="index.html"><img src="src/imagens/Logo.svg"></a></h1>
+      <nav class="paginas">
+        <ol>
+          <li><a href="musicas.html">Minhas Músicas</a></li>
+          <li><a href="generos.html">Gêneros</a></li>
+          <li><a href="javascript:AbreFechaDeslizavel()">Plataformas <img width="12" src="src/imagens/seta.svg"></a></li>
+          
+          <div id="deslizavel">
+            <ol>
+              <li><a target="_blank" href="https://www.figma.com/proto/XPvXaEJ6fVsmy3fYufXmnK/Chorro-Work's?type=design&node-id=24-101&t=Klep6i8UqI1gI1PU-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hide-ui=1"><img src="src/imagens/chorro-vetor.svg"><p>DOGIFY</p></a></li>
+              <li><a target="_blank" href="https://open.spotify.com/intl-pt/track/4PTG3Z6ehGkBFwjybzWkR8?si=015ec87fb8934d50"><img src="src/imagens/spotify-vetor.svg"><p>SPOTIFY</p></a></li>
+              <li><a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="src/imagens/youtube-vetor.svg"><p>YOUTUBE</p></a></li>
+            </ol>
+          </div>
+        </ol>
+      </nav>
+      </div>
+
+      <nav class="user">
+        <ol>
+          <li class="entrar"><a href="entrar.html">Entrar</a></li>
+          <li class="criar"><a href="criar.html">Criar</a></li>
+        </ol>
+      </nav>
+    </header>
+    <main>
+      <section class="section_navegar">
+        
+        <div class="informacoes">
+          <div clss="barrapesquisa">
+            <h1>NAVEGUE PELOS SEUS GOSTOS</h1>
+            <form class="pesquisar" action="respostas.html">
+                <fieldset>
+                  <input class="lupa" type="image" src="src/imagens/lupa.png">
+                    <label for="search"></label>
+                    <input class="pesq_input" id="Pesquisar" placeholder="Pesquisar gêneros"  type="search">
+                </fieldset>
+            </form>
+          </div>
+
+          <div class="filtros_div">
+            <div>
+              <h2>Filtros:</h2>
+              <p>A - Z</p>
+            </div>
+            
+            <h2>Listar todos:</h2>
+            <img src="src/imagens/3barras_vetor.svg">
+            <img src="src/imagens/4quadradinhos_vetor.svg">
+          </div>
+        </div>
+
+        <div>
+          <ol class="lista_generos">
+            <li><img src="src/imagens/generos/alternativa.svg"></li>
+            <li><img src="src/imagens/generos/axé.svg"></li>
+            <li><img src="src/imagens/generos/MPB.svg"></li>
+            <li><img src="src/imagens/generos/ROCK.svg"></li>
+            <li><img src="src/imagens/generos/reggae.svg"></li>
+            <li><img src="src/imagens/generos/Blues.svg"></li>
+            <li><img src="src/imagens/generos/POP.svg"></li>
+            <li><img src="src/imagens/generos/Kpop.svg"></li>
+            <li><img src="src/imagens/generos/trap.svg"></li>
+            <li><img src="src/imagens/generos/Bossa nova.svg"></li>
+            <li><img src="src/imagens/generos/Indie.svg"></li>
+            <li><img src="src/imagens/generos/forro.svg"></li>
+            <li><img src="src/imagens/generos/funk.svg"></li>
+            <li><img src="src/imagens/generos/pagode.svg"></li>
+            <li><img src="src/imagens/generos/samba.svg"></li>
+            <li><img src="src/imagens/generos/Classico.svg"></li>
+            <li><img src="src/imagens/generos/Lofi.svg"></li>
+            <li><img src="src/imagens/generos/salsaa.svg"></li>
+            <li><img src="src/imagens/generos/hiphop.svg"></li>
+            <li><img src="src/imagens/generos/Punk.svg"></li>
+            <li><img src="src/imagens/generos/jogos.svg"></li>
+            <li><img src="src/imagens/generos/Jazz.svg"></li>
+            <li><img src="src/imagens/generos/funk-1.svg"></li>
+            <li><img src="src/imagens/generos/foco.svg"></li>
+            <li><img src="src/imagens/generos/samba-1.svg"></li>
+            <li><img src="src/imagens/generos/viagem.svg"></li>
+            <li><img src="src/imagens/generos/Anime.svg"></li>
+            <li><img src="src/imagens/generos/mimis.svg"></li>
+            <li><img src="src/imagens/generos/treinis.svg"></li>
+            <li><img src="src/imagens/generos/natal.svg"></li>
+            <li><img src="src/imagens/generos/Halloween.svg"></li>
+            <li><img src="src/imagens/generos/romance.svg"></li>
+            <li><img src="src/imagens/generos/Phonk.svg"></li>
+            <li><img src="src/imagens/generos/brazillian phonk.svg"></li>
+            <li><img src="src/imagens/generos/natureza.svg"></li>
+          </ol>
+        </div>
+        
+      </section>
+
+      
+    </main>
+
+    <footer>
+      <nav class="footer_logo_sociais">
+        <a href="index.html"><h1><img src="src/imagens/Logo.svg"></h1></a>
+
+        <nav class="redes_sociais">
+          <ol>
+            <li><a href="#"><img src="src/imagens/linkedin.svg"></a></li>
+            <li><a href="#"><img src="src/imagens/instagram.svg"></a></li>
+            <li><a href="#"><img src="src/imagens/x.svg"></a></li>
+            <li><a href="#"><img src="src/imagens/facebook.svg"></a></li>
+          </ol>
+        </nav>
+      </nav>
+
+      <div class="footer_section_direitos">
+        <div>
+          <section>
+            <h2 class="titulo_listas">COMPANHIA</h2>
+            <ol>
+              <li>Sobre o Ritmômetro</li>
+              <li>Nos contate</li>
+              <li>Trabalhos e projetos</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2 class="titulo_listas">SUPORTE</h2>
+            <ol>
+              <li>Rastrear música</li>
+              <li>Comunidade Suporte</li>
+              <li>Comunidade Guia</li>
+              <li>Suporte</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2 class="titulo_listas">CONTA</h2>
+            <ol>
+              <li>Baixar Inscroblous</li>
+              <li>API do Desenvolvedor</li>
+              <li>Baixar músicas grátis</li>
+              <li>Mercado</li>
+            </ol>
+          </section>
+        </div>
+        <p>© 2023 Ritmometro, IFRN DESIGN | Privacy | Accessibility | Cookie Choices</p>
+      </div>
+    </footer>
+  </body>
+
+</html>
+<link 
