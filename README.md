@@ -18,7 +18,7 @@ O Ritmometro é um protótipo feito em HTML, CSS e Javascript de plataforma de r
 
 ## Autores
   ### Kilton Jhonathan de Araújo. / Rafael Ricco Dantas Cavalcanti.
-Github: [Kilton.araujo](https://github.com/KiltonAraujo)
-Github: [rafaeltod]([https://github.com/KiltonAraujo](https://github.com/rafaeltod)
+* Github: [Kilton.araujo](https://github.com/KiltonAraujo)
+* Github: [rafaeltod](https://github.com/rafaeltod)
 
 Email: Kilton.araujo@gmail.com
