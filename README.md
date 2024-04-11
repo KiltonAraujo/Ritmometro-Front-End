@@ -8,3 +8,17 @@ O Ritmometro é um protótipo feito em HTML, CSS e Javascript de plataforma de r
 ## Layout MOBILE
 ![Imagem da home do projeto (Mobile).](src/assets/Ritmometro%20(celular%20menu%20aberto).jpg)
 ![Imagem da home com o menu aberto (Mobile).](src/assets/Ritmometro%20(celular%20menu%20aberto)%20(1).jpg)
+
+## Tecnologias utilizadas
+* HTML
+* CSS
+* Javascript
+* Figma
+* Fontes do google
+
+## Autores
+  ### Kilton Jhonathan de Araújo. / Rafael Ricco Dantas Cavalcanti.
+Github: [Kilton.araujo](https://github.com/KiltonAraujo)
+Github: [rafaeltod]([https://github.com/KiltonAraujo](https://github.com/rafaeltod))
+
+Email: Kilton.araujo@gmail.com
